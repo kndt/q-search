@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: search-service
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        name: search-service
+    spec:
+      containers:
+        - name: search-service
+          image: search/service
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 3000

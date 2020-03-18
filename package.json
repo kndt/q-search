@@ -1,0 +1,21 @@
+{
+  "name": "q-search",
+  "version": "1.0.0",
+  "description": "service that fetches an animated gif for a given search term",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "search",
+    "gif"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "giphy-api": "^2.0.1",
+    "mocha": "^7.1.0"
+  }
+}
